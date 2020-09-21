@@ -25,6 +25,13 @@ Cada una de las letras representa un principio:
 
 En el programa daremos ejemplo de tres de ellos.
 
+## S. Single responsibiliti principle
+
+Como su propio nombre indica, establece que una clase, componente o microservicio debe ser responsable de una sola cosa. Si por el contrario, una clase tiene varias responsabilidades, esto implica que el cambio en una responsabilidad provocará la modificación en otra responsabilidad.
+
+Para nuestro ejemplo existen dos clases para agregar jugadores a un equipo de futbol y otra para ver la cantidad de jugadores de futbol en la nomina total, estas pudieron ser en conjunto pero se separa para que cada clase cumpla con la funcion de agregar el jugador al equipo, y otra para mostrar todo el equipo en nomina.
+
+
 ## L. Liskov substitucion principle 
 
 El principio de sustitución de Liskov declara que si una clase B hereda de una clase A, entonces podríamos reemplazar a A por B sin que afecte el 
