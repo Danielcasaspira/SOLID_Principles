@@ -5,9 +5,9 @@ INFORMATICA I
 
 Integrantes:
 
-Cesar Alfonso Solano Ruiz  202002099036
-Erick Yoan Ahumada Salcedo 202002099020
-Henry Daniel Casas Pira    202002099023 		
+*Cesar Alfonso Solano Ruiz  202002099036
+*Erick Yoan Ahumada Salcedo 202002099020
+*Henry Daniel Casas Pira    202002099023 		
 
 
 # Principios SOLID
@@ -50,3 +50,9 @@ atrapar el balon con sus manos y el medio campista teniendo como funcion princip
 Este principio se garantiza puesto que no se maneja una unica interface donde en este caso, el delantero y defensa se vieran obligados a usar metodos 
 que realmente no usan en este deporte.
 
+
+
+###Fuentes
+
+[Liskov Substitution](https://tech.tribalyte.eu/blog-principios-solid-liskov)
+[Solid_Principles](https://enmilocalfunciona.io/principios-solid/)
