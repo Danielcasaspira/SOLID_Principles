@@ -5,20 +5,19 @@
  */
 package co.com.futbol;
 
-
-public class MedioCampista extends Futbolista implements IAccesoMovimientos, IAsistencias {
-
+/**
+ *
+ * @author casashd
+ */
+public class MedioCampista extends Futbolista {
+ 
     private int asistencias;
     private int regates;
     private int faltas;
 
-    
-    
-    
     public MedioCampista(String nombre, String genero, int edad, float altura) {
         super(nombre, genero, edad, altura);
     }
-
     /**
      * @return the asistencias
      */
@@ -62,28 +61,12 @@ public class MedioCampista extends Futbolista implements IAccesoMovimientos, IAs
     }
 
     @Override
-    public void saltar() {
-        System.out.println("Saltando en el medio campo...");
+    public String toString() {
+        return "MedioCampista{" + "asistencias=" + asistencias + ", regates=" + regates + ", faltas=" + faltas + '}';
     }
 
-    @Override
-    public void correr() {
-        System.out.println("Corriendo el medio campo...");
-    }
-
-    @Override
-    public void patear() {
-        System.out.println("Pateando el medio campo...");
-    }
-
-    @Override
-    public void recuperar() {
-        System.out.println("Recuperando el medio campo...");
-    }
-
-    @Override
-    public void hacerAsistencias() {
-        System.out.println("Haciendo asistencias a los delanteros...");
-    }
-
+   
+    
+    
+    
 }

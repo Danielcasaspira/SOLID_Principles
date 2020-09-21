@@ -5,9 +5,10 @@
  */
 package co.com.acciones;
 
-import co.com.futbol.IAccesoMovimientos;
-
-
+/**
+ *
+ * @author casashd
+ */
 public class ImplementacionMovimientos implements IAccesoMovimientos{
 
     @Override

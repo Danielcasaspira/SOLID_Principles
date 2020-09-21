@@ -5,8 +5,11 @@
  */
 package co.com.futbol;
 
-
-public class Defensa extends Futbolista implements IAccesoMovimientos {
+/**
+ *
+ * @author casashd
+ */
+public class Defensa extends Futbolista {
 
     private int bloquedas;
     private int pases_efectivos;
@@ -63,26 +66,6 @@ public class Defensa extends Futbolista implements IAccesoMovimientos {
     public String toString() {
         return "Defensa{" + "bloquedas=" + bloquedas + ", pases_efectivos="
                 + pases_efectivos + ", cabezazos=" + cabezazos + '}';
-    }
-
-    @Override
-    public void saltar() {
-        System.out.println("Saltando en la defensa...");
-    }
-
-    @Override
-    public void correr() {
-        System.out.println("Corriendo en la defensa...");
-    }
-
-    @Override
-    public void patear() {
-        System.out.println("Pateando en la defensa...");
-    }
-
-    @Override
-    public void recuperar() {
-        System.out.println("Recuperando en la defensa...");
     }
 
 }

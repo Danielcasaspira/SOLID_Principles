@@ -5,6 +5,9 @@
  */
 package co.com.futbol;
 
+import co.com.acciones.IAccesoMovimientos;
+import co.com.acciones.IAtraparBalon;
+
 
 public class Arquero extends Futbolista implements IAccesoMovimientos, IAtraparBalon{
     

@@ -1,22 +1,24 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package test;
 
-import co.com.futbol.Delantero;
-import co.com.futbol.IAccesoMovimientos;
-import co.com.futbol.IAsistencias;
-import co.com.futbol.MedioCampista;
+import co.com.futbol.*;
+
 
 
 public class PruebasSOLID {
     public static void main(String[] args) {
-     
-        IAsistencias accion = new MedioCampista("Pepe","M",30, (float) 1.80);
-        accion.hacerAsistencias();
-        IAccesoMovimientos movim =  new Delantero("Luis", "M", 28, (float) 1.75);
-        movim.patear();
+        Arquero arquero1 =new Arquero("Erick","masculino",25,2);
+        Defensa defensa1=new Defensa("Jhon","masculino",25,1);
+        Delantero delantero1= new Delantero("juan","masculino",23,2);
+        MedioCampista mediocampista1=new MedioCampista("juan","masculino",22,1);
+        Equipo equipo = new Equipo("equipo 1",arquero1,defensa1,delantero1,mediocampista1);
+        
+        Nomina nomina1 = new Nomina();
+        nomina1.agregarJugador(equipo);
+        
+        nomina1.mostrarNomina();
+        
+
+        
+        
     }
 }
