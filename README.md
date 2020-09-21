@@ -25,7 +25,7 @@ Cada una de las letras representa un principio:
 
 En el programa daremos ejemplo de tres de ellos.
 
-## S. Single responsibiliti principle
+## S. Single responsibility principle
 
 Como su propio nombre indica, establece que una clase, componente o microservicio debe ser responsable de una sola cosa. Si por el contrario, una clase tiene varias responsabilidades, esto implica que el cambio en una responsabilidad provocará la modificación en otra responsabilidad.
 
