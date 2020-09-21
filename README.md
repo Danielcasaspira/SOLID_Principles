@@ -5,9 +5,9 @@ INFORMATICA I
 
 Integrantes:
 
-*Cesar Alfonso Solano Ruiz  202002099036
-*Erick Yoan Ahumada Salcedo 202002099020
-*Henry Daniel Casas Pira    202002099023 		
+- Cesar Alfonso Solano Ruiz  202002099036
+- Erick Yoan Ahumada Salcedo 202002099020
+- Henry Daniel Casas Pira    202002099023 		
 
 
 # Principios SOLID
@@ -52,7 +52,7 @@ que realmente no usan en este deporte.
 
 
 
-###Fuentes
+### Fuentes
 
-[Liskov Substitution](https://tech.tribalyte.eu/blog-principios-solid-liskov)
-[Solid_Principles](https://enmilocalfunciona.io/principios-solid/)
+~ [Liskov Substitution](https://tech.tribalyte.eu/blog-principios-solid-liskov)
+~ [Solid_Principles](https://enmilocalfunciona.io/principios-solid/)
