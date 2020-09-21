@@ -1,7 +1,7 @@
-Universidad Distrital Francisco Jose de Caldas
-Esoecializacion en Ingenieria de Software
-Profesor Alejandro Paolo Daza Corredor
-INFORMATICA I
+## Universidad Distrital Francisco Jose de Caldas
+## Especializacion en Ingenieria de Software
+### Profesor Alejandro Paolo Daza Corredor
+### INFORMATICA I
 
 Integrantes:
 
@@ -54,5 +54,5 @@ que realmente no usan en este deporte.
 
 ### Fuentes
 
-~ [Liskov Substitution](https://tech.tribalyte.eu/blog-principios-solid-liskov)
-~ [Solid_Principles](https://enmilocalfunciona.io/principios-solid/)
+- [Liskov Substitution](https://tech.tribalyte.eu/blog-principios-solid-liskov)
+- [Solid_Principles](https://enmilocalfunciona.io/principios-solid/)
