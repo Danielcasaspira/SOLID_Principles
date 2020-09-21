@@ -5,11 +5,8 @@
  */
 package co.com.futbol;
 
-/**
- *
- * @author casashd
- */
-public class Delantero extends Futbolista {
+
+public class Delantero extends Futbolista implements IAccesoMovimientos {
     
     private float velocidad;
     private int goles;
@@ -63,8 +60,23 @@ public class Delantero extends Futbolista {
     }
 
     @Override
-    public String toString() {
-        return "Delantero{" + "velocidad=" + velocidad + ", goles=" + goles + ", piePateo=" + piePateo + '}';
+    public void saltar() {
+        System.out.println("Saltando en la delantera...");
+    }
+
+    @Override
+    public void correr() {
+        System.out.println("Corriendo en la delantera...");
+    }
+
+    @Override
+    public void patear() {
+        System.out.println("Pateando en la delantera...");
+    }
+
+    @Override
+    public void recuperar() {
+        System.out.println("Recuperando en la delantera...");
     }
     
     

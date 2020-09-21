@@ -3,14 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package test;
+package co.com.futbol;
 
-/**
- *
- * @author casashd
- */
-public class PruebasSOLID {
-    public static void main(String[] args) {
-        
-    }
+
+public interface IAsistencias {
+    
+        void hacerAsistencias();
 }
