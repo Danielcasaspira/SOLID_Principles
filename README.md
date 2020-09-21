@@ -1,10 +1,15 @@
-<<<<<<< HEAD
-# SOLID_Principles
+Universidad Distrital Francisco Jose de Caldas
+Esoecializacion en Ingenieria de Software
+Profesor Alejandro Paolo Daza Corredor
+INFORMATICA I
+
+Integrantes:
+
+Cesar Alfonso Solano Ruiz  202002099036
+Erick Yoan Ahumada Salcedo 202002099020
+Henry Daniel Casas Pira    202002099023 		
 
 
-->Principio de segregación de interfaz:
-Se realizo la implementacion....
-=======
 # Principios SOLID
 
 Las siglas SOLID son la representación de 5 principios establecidos por Robert C. Martin, los cuales en el paradigma de programación orientada a objetos, 
