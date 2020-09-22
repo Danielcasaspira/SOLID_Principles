@@ -12,9 +12,11 @@ import co.com.acciones.IAtraparBalon;
 public class Arquero extends Futbolista implements IAccesoMovimientos, IAtraparBalon{
     
     private int atajadas;
+    private boolean guantes;
     
     public Arquero(String nombre, String genero, int edad, float altura) {
         super(nombre, genero, edad, altura);
+        this.guantes = false;
     }
 
     public int getAtajadas() {
@@ -47,7 +49,15 @@ public class Arquero extends Futbolista implements IAccesoMovimientos, IAtraparB
 
     @Override
     public void atraparBalon() {
-        System.out.println("Arquero atrapando balón...");
+        if(guantes == true)
+            System.out.println("Arquero atrapando balón...");
+        else
+            System.out.println("Arquero no puede atrapar el balón sin guantes...");
     }
     
+    public boolean tenerGuantes(){
+        this.guantes = true;
+        System.out.println("Arquero con guantes...");
+        return true;
+    }
 }
