@@ -65,6 +65,16 @@ Es un patrón de diseño orientado a objetos, en el que se suministran objetos a
 ![image](https://user-images.githubusercontent.com/46467018/150595298-0b1e6c7a-2587-45a1-8ede-83d8f413ccd7.png)
 
 
+# Polimorfismo en Java
+
+El polimorfismo en Java y en la POO se refiere a que un objeto puede tomar diferentes formas de comportarse, es decir, que las subclases de una clase pueden definir su propio comportamiento.
+
+Aun así compartir comportamiento de su clase padre. Como se puede ver, la herencia y el polimorfismo en java van muy ligados.
+Así que será necesario tener bien claro este concepto para poder entender el polimorfismo.
+Para entender el Polimorfismo vamos a realizar un pequeño ejemplo que consistirá en una clase padre y dos clases hijas.
+
+Estas heredan del mismo padre, cada clase sobrescribirá un método del padre para ver cómo se comporta el polimorfismo.
+
 ### Fuentes
 
 - [Liskov Substitution](https://tech.tribalyte.eu/blog-principios-solid-liskov)
