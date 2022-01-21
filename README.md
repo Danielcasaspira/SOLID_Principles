@@ -62,6 +62,7 @@ que realmente no usan en este deporte.
 Es un patrón de diseño orientado a objetos, en el que se suministran objetos a una clase en lugar de ser la propia clase la que cree dichos objetos. Esos objetos cumplen contratos que necesitan nuestras clases para poder funcionar (de ahí el concepto de dependencia). Nuestras clases no crean los objetos que necesitan, sino que se los suministra otra clase 'contenedora' que inyectará la implementación deseada a nuestro contrato
 
 ![image](https://user-images.githubusercontent.com/46467018/150595156-e9aa5d2d-a325-4907-abe8-0c9a9273f526.png)
+![image](https://user-images.githubusercontent.com/46467018/150595298-0b1e6c7a-2587-45a1-8ede-83d8f413ccd7.png)
 
 
 ### Fuentes
