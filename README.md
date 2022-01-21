@@ -75,6 +75,12 @@ Para entender el Polimorfismo vamos a realizar un pequeño ejemplo que consistir
 
 Estas heredan del mismo padre, cada clase sobrescribirá un método del padre para ver cómo se comporta el polimorfismo.
 
+# SQL
+
+![image](https://user-images.githubusercontent.com/46467018/150599351-d885623b-07f7-4651-b9ef-0decffa2443f.png)
+
+
+
 ### Fuentes
 
 - [Liskov Substitution](https://tech.tribalyte.eu/blog-principios-solid-liskov)
