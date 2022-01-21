@@ -57,6 +57,9 @@ atrapar el balon con sus manos y el medio campista teniendo como funcion princip
 Este principio se garantiza puesto que no se maneja una unica interface donde en este caso, el delantero y defensa se vieran obligados a usar metodos 
 que realmente no usan en este deporte.
 
+# Inyeccion de dependencias
+
+
 
 
 ### Fuentes
