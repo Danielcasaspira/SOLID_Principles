@@ -55,7 +55,7 @@ principales de una interface IAccesoMovimientos, con el objetivo de que se cumpl
 y el mediocampista puedan implementar sus movimientos "unicos" a atraves de IAtraparBalon y IAsistencias, teniendo en cuenta que el arquero es el unico que puede
 atrapar el balon con sus manos y el medio campista teniendo como funcion principal hacer asistencias al delantero. 
 Este principio se garantiza puesto que no se maneja una unica interface donde en este caso, el delantero y defensa se vieran obligados a usar metodos 
-que realmente no usan en este deporte.
+que realmente no usan en este deporte..
 
 # Inyeccion de dependencias
 
